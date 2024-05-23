@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height:100vh;
+}
+.xyz{
+    overflow-x: scroll;
+}
+.xyz::-webkit-scrollbar{
+    display: none;
+}
+.para{
+    columns: #808080;
+}
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid red  ;
+}
+@keyframes fadeIn {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+.xx img{
+    width: 7.5vw;
+    min-width: 130px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+    
+}
+.xx  .active{
+    border: 4px solid tomato;
+    padding: 3px;
+}
